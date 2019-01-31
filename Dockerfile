@@ -1,4 +1,4 @@
-FROM nginx:1-alpine
+FROM nginx:stable-alpine
 
 VOLUME /app
 WORKDIR /app
